@@ -22,6 +22,10 @@
 
    &__title {
       margin-bottom: 88px;
+
+      @include tablets {
+         margin-bottom: 44px;
+      }
    }
 
    // .map__box

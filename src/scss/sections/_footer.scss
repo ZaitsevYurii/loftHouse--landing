@@ -6,11 +6,20 @@
    &__inner {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+
+      @include desktop {
+         grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+         row-gap: 40px;
+      }
    }
 
    &__logo {
       display: block;
       margin-top: -24px;
+
+      @include desktop {
+         margin-top: 0;
+      }
    }
 }
 

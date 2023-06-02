@@ -1,5 +1,10 @@
 .questions {
    padding: 0 0 180px;
+
+   @include tablets {
+      padding: 0 0 40px;
+   }
+
    // .questions__title
 
    &__title {
@@ -13,5 +18,10 @@
       grid-template-columns: repeat(4, 1fr);
       align-items: center;
       column-gap: 30px;
+
+      @include laptop {
+         grid-template-columns: 1fr;
+         row-gap: 30px;
+      }
    }
 }

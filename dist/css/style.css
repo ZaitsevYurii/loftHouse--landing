@@ -472,7 +472,7 @@ body {
   background-color: #242B33;
   color: #fff;
   font-size: 16px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .wrapper {
@@ -1174,6 +1174,15 @@ a:hover {
   .rooms__cards {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   }
+
+  .footer__inner {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    row-gap: 40px;
+  }
+
+  .footer__logo {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 959px) {
@@ -1229,6 +1238,11 @@ a:hover {
   .form__privacy {
     grid-row: 4/5 span;
   }
+
+  .questions__form {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1242,6 +1256,19 @@ a:hover {
     line-height: 1.1;
     left: 20px;
     bottom: 15px;
+  }
+
+  .video__play {
+    width: 50px;
+    height: 50px;
+  }
+
+  .map__title {
+    margin-bottom: 44px;
+  }
+
+  .questions {
+    padding: 0 0 40px;
   }
 }
 
