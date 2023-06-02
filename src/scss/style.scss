@@ -1,0 +1,20 @@
+@use "base/variables" as *;
+@use "base/mixins" as *;
+
+@import "base/fonts";
+@import "base/normalize";
+@import "base/scafolding";
+@import "base/base";
+
+@import "sections/header";
+@import "elements/nav";
+@import "elements/nav-icon";
+@import "sections/main";
+@import "sections/benefits";
+@import "sections/rooms";
+@import "sections/watch";
+@import "elements/form";
+@import "sections/video";
+@import "sections/map";
+@import "sections/questions";
+@import "sections/footer";

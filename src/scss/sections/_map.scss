@@ -1,0 +1,37 @@
+.map {
+   padding: 0 0 180px;
+   position: relative;
+
+   &::before {
+      content: 'V';
+      position: absolute;
+      top: 0;
+      left: calc(50% - 555px);
+      transform: translate(-50%, 0%);
+
+      font-family: $accent-font;
+      font-weight: 700;
+      font-size: 400px;
+      line-height: 500px;
+      color: $white;
+      opacity: 0.02;
+
+   }
+
+   // .map__title
+
+   &__title {
+      margin-bottom: 88px;
+   }
+
+   // .map__box
+
+   &__box {}
+
+   // .map__in
+
+   &__in {
+      height: 358px;
+      background: #626262;
+   }
+}

@@ -1,0 +1,22 @@
+.nav {
+   @include laptop {
+      display: none;
+   }
+
+   &__list {
+      display: flex;
+      align-items: center;
+   }
+
+   &__item:not(:last-child) {
+      margin-right: 40px;
+   }
+
+   &__link {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      color: $white;
+   }
+}

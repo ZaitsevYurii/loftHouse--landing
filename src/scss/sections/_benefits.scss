@@ -1,0 +1,41 @@
+.benefits {
+   padding: 120px 0;
+   position: relative;
+
+   &::after {
+      content: 'II';
+      position: absolute;
+      top: 0;
+      left: calc(50% + 555px);
+      transform: translate(-50%, 0%);
+
+      font-family: $accent-font;
+      font-weight: 700;
+      font-size: 400px;
+      line-height: 500px;
+      color: $white;
+      opacity: 0.02;
+
+   }
+
+   &__list {
+      display: flex;
+      column-gap: 70px;
+   }
+
+   &__item {
+      text-align: center;
+   }
+
+   &__img {
+      margin: 0 auto;
+      margin-bottom: 53px;
+   }
+
+   &__descr {
+      font-family: $secondary-font;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 1.35;
+   }
+}

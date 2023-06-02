@@ -1,0 +1,26 @@
+.watch {
+   padding: 150px 0;
+
+   &__title {
+      margin-bottom: 17px;
+   }
+
+   &__inner {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 30px;
+   }
+
+   &__descr {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $white;
+   }
+
+   &__form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 35px 30px;
+   }
+}

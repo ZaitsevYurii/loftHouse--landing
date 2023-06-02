@@ -1,0 +1,78 @@
+.form {
+
+   &__name {
+      padding: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      outline: none;
+
+      background-color: rgba(255, 255, 255, 0.2);
+      color: $white;
+      transition: all 0.2s ease-in;
+
+      &::placeholder {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 27px;
+         color: #BEBEBE;
+      }
+
+      &:hover {
+         background-color: rgba(255, 255, 255, 0.1);
+      }
+   }
+
+   &__phone {
+      padding: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      outline: none;
+
+      background-color: rgba(255, 255, 255, 0.2);
+      color: $white;
+      transition: all 0.2s ease-in;
+
+      &::placeholder {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 27px;
+         color: #BEBEBE;
+      }
+
+      &:hover {
+         background-color: rgba(255, 255, 255, 0.1);
+      }
+   }
+
+   &__privacy {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #E7E7E7;
+      text-align: center;
+   }
+
+   &__btn {
+      padding: 12px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 27px;
+      color: $white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: $accent;
+      border: none;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+         background-color: rgba(212, 193, 127, 0.2);
+         color: $accent;
+      }
+   }
+}
