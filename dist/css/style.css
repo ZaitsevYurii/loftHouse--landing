@@ -1170,7 +1170,13 @@ a:hover {
   gap: 22px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .rooms__cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+}
+
+@media screen and (max-width: 959px) {
   .header {
     min-height: unset;
   }
@@ -1208,6 +1214,20 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rooms__title {
+    margin-bottom: 44px;
+    font-size: 26px;
+  }
+
+  .rooms__subtitle {
+    font-size: 16px;
+    line-height: 1.1;
+    left: 20px;
+    bottom: 15px;
   }
 }
 
