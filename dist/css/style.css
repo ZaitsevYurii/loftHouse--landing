@@ -1215,6 +1215,20 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 30px;
   }
+
+  .watch__inner {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .watch__form {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .form__privacy {
+    grid-row: 4/5 span;
+  }
 }
 
 @media screen and (max-width: 768px) {

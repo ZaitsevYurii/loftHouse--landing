@@ -54,6 +54,10 @@
       line-height: 16px;
       color: #E7E7E7;
       text-align: center;
+
+      @include laptop {
+         grid-row: 4 / 5 span;
+      }
    }
 
    &__btn {
