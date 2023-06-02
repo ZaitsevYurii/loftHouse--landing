@@ -472,6 +472,7 @@ body {
   background-color: #242B33;
   color: #fff;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -1201,6 +1202,12 @@ a:hover {
 
   .nav {
     display: none;
+  }
+
+  .benefits__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 30px;
   }
 }
 
