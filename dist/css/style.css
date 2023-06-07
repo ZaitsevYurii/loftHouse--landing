@@ -741,6 +741,7 @@ a:hover {
   align-items: center;
   background-color: transparent;
   border: none;
+  display: none;
 }
 
 .nav-icon {
@@ -1217,6 +1218,10 @@ a:hover {
 
   .nav {
     display: none;
+  }
+
+  .nav-icon-btn {
+    display: block;
   }
 
   .benefits__list {

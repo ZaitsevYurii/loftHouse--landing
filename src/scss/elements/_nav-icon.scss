@@ -12,6 +12,12 @@
    align-items: center;
    background-color: transparent;
    border: none;
+   display: none;
+
+   @include laptop {
+      display: block;
+   }
+
 }
 
 .nav-icon {
